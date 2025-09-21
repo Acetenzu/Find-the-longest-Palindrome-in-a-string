@@ -14,7 +14,7 @@ for i in range(string_length):
     left, right = i, i+1 #偶數回文的中間字母 ex:accbbcca就是中間兩個b
     while(left >= 0 and right < string_length and given_string[left] == given_string[right]):
         if(right - left + 1 > len(longest)):
-            longest = given_string[left:right]
+            longest = given_string[left:right+1]
         left -= 1
         right += 1
 if(len(longest) >= 2):
