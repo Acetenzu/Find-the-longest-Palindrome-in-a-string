@@ -1,5 +1,6 @@
 # Find-the-longest-Palindrome-in-a-string
-This can helps you to find the longest palindrome in a string\n
+This can helps you to find the longest palindrome in a string
+
 要在string中找出最長迴文(正著讀和反著讀一樣，且長度必須 ≥ 2)
 Input
 輸入一行字串（長度 ≤ 50，只包含小寫英文字母）
